@@ -1,0 +1,41 @@
+{
+    "name": "okapi/path",
+    "description": "PHP Path is a PHP library that provides utilities for handling file paths.",
+    "version": "1.0.0",
+    "type": "library",
+    "homepage": "https://github.com/okapi-web/php-path",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "WalterWoshid",
+            "email": "wotschel.valentin@googlemail.com",
+            "homepage": "https://github.com/WalterWoshid"
+        }
+    ],
+    "keywords": [
+        "path",
+        "file",
+        "filesystem",
+        "php"
+    ],
+    "scripts": {
+        "test": "phpunit",
+        "test-coverage": "phpunit --coverage-html tests/coverage"
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Okapi\\Path\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Okapi\\Path\\Tests\\": "tests/"
+        }
+    }
+}

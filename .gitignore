@@ -1,0 +1,10 @@
+# IDEs
+.idea/
+
+# Composer
+vendor/
+composer.lock
+
+# PHPUnit
+.phpunit.result.cache
+tests/coverage/
